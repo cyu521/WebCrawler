@@ -1,0 +1,1465 @@
+<body class="" ng-class="{'retail-variation': retailVariation}"> 
+ <div ng-controller="AccordionController as ctrl" class="header-container" ng-class="{'opened': ctrl.opened}"> 
+  <header ng-class="{'opened': ctrl.opened}" data-scroll-header> 
+   <div class="row"> 
+    <i ng-cloak ng-if="!ctrl.opened" ng-click="ctrl.toggle()" class="hamburger material-icons">?</i> 
+    <i ng-cloak ng-if="ctrl.opened" ng-click="ctrl.toggle()" class="hamburger material-icons">?</i> 
+    <a data-scroll href="/hub/" class="logo" ng-click="ctrl.close()" data-g-event="header:nav" data-g-action="logo"><img src="/hub/static/images/onhub_logo.svg" alt="OnHub"></a> 
+    <nav> 
+     <ul ng-cloak> 
+      <li class="link"><a href="#specs" data-scroll ng-click="ctrl.close(); ctrl.setSpecsOpened(true)" data-g-event="header:nav" data-g-action="specs">Specs</a></li> 
+      <li class="link"><a href="/hub/support/" ng-click="ctrl.close()" data-g-event="header:nav" data-g-action="support">Support</a></li> 
+      <li class="btn-holder"><a href="https://store.google.com/product/onhub?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_content=Buy_Now_Button&amp;utm_campaign=TP-LINK" class="btn btn-blue" ng-click="ctrl.close()" data-g-event="header:nav:cta" data-g-action="button">Buy now</a></li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <nav class="mobile"> 
+    <ul> 
+     <li class="link"><a href="#speed" data-scroll ng-click="ctrl.close()" data-g-event="header:nav" data-g-action="speed">Fast Wi-Fi</a></li> 
+     <li class="link"><a href="#speaks" data-scroll ng-click="ctrl.close()" data-g-event="header:nav" data-g-action="speaks">Speaks your language</a></li> 
+     <li class="link"><a href="#current" data-scroll ng-click="ctrl.close()" data-g-event="header:nav" data-g-action="current">Keeps getting better</a></li> 
+     <li class="link"><a href="#specs" data-scroll ng-click="ctrl.close(); ctrl.setSpecsOpened(true)" data-g-event="header:nav" data-g-action="specs">Specs</a></li> 
+     <li class="link"><a href="/hub/support/" ng-click="ctrl.close()" data-g-event="header:nav" data-g-action="support">Support</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <div class="header-mask"></div> 
+ </div> 
+ <main> 
+  <section id="marquee" class="intro marquee sized" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened}" ng-hide="retailVariation"> 
+   <div class="content-top"> 
+    <div class="grid fit no-gutters"> 
+     <div class="unit two-fifths aligner mobile-display-block"> 
+      <div class="aligned"> 
+       <div class="content"> 
+        <h1 class="pretitle">Meet OnHub.</h1> 
+        <h1 class="title">A new type of router for the new way to 
+         <nobr>
+           Wi-Fi 
+         </nobr>.</h1> 
+        <div class="body">
+          We’re streaming and sharing in new ways our old routers were never built to handle. Meet OnHub, a router from Google that is built for all the ways you Wi-Fi. 
+        </div> 
+        <div class="cta"> 
+         <a href="javascript:" data-yt-lightbox-video-id="HNnfHP7VDP8" data-yt-lightbox-language="en" data-g-event="hero:video"> <i class="material-icons">?</i> Play video </a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="unit three-fifths aligner mobile-display-block"> 
+      <div class="aligned"> 
+       <div class="products"> 
+        <div class="product-images"> 
+         <img src="/hub/static/images/marquee_new.jpg"> 
+        </div> 
+        <div class="grid no-stacking-on-mobiles no-gutters"> 
+         <div class="unit percent-5">
+           &nbsp; 
+         </div> 
+         <div class="asus unit percent-45"> 
+          <div class="manufacturer">
+            ASUS 
+          </div> 
+          <div class="tagline">
+            Boost Wi-Fi on a particular device with a wave of your hand. 
+          </div> 
+          <div class="cta cta--arrow"> 
+           <a href="https://store.google.com/product/onhub_from_asus?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_campaign=ASUS" data-g-event="marquee:asus:cta" data-g-action="button">Buy now <i class="material-icons">?</i></a> 
+          </div> 
+         </div> 
+         <div class="tplink unit percent-45"> 
+          <div class="manufacturer">
+            TP-LINK 
+          </div> 
+          <div class="tagline">
+            A front-facing antenna reflector for greater range in that direction. 
+          </div> 
+          <div class="cta cta--arrow"> 
+           <a href="https://store.google.com/product/onhub?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_campaign=TP-LINK" data-g-event="marquee:asus:cta" data-g-action="button">Buy now <i class="material-icons">?</i></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="content-bottom callouts grid"> 
+    <a data-scroll href="#speed" class="unit one-third aligner" data-g-event="hero:callout" data-g-action="speed"> 
+     <div class="aligned">
+       Fast Wi-Fi 
+      <i class="material-icons">?</i> 
+     </div> </a> 
+    <a data-scroll href="#speaks" class="unit one-third aligner" data-g-event="hero:callout" data-g-action="speaks"> 
+     <div class="aligned">
+       Speaks your language 
+      <i class="material-icons">?</i> 
+     </div> </a> 
+    <a data-scroll href="#current" class="unit one-third aligner" data-g-event="hero:callout" data-g-action="current"> 
+     <div class="aligned">
+       Keeps getting better 
+      <i class="material-icons">?</i> 
+     </div> </a> 
+   </div> 
+  </section> 
+  <section class="intro sized sized-full disable-sized-dynamic marquee-retail" id="buy" ng-controller="RetailController as ctrl" ng-if="retailVariation" ng-cloak ng-init="ctrl.retailers = [{&quot;background_size&quot;: &quot;120px&quot;, &quot;key&quot;: &quot;googlestore&quot;, &quot;title&quot;: &quot;Google Store&quot;, &quot;url&quot;: &quot;https://store.google.com/category/onhub_wifi_routers?sticky_source_country=us&amp;utm_source=OnHub&amp;utm_medium=MS&amp;utm_campaign=OH_category_page&quot;, &quot;half&quot;: true, &quot;size&quot;: &quot;full&quot;}, {&quot;offer_durations&quot;: [{&quot;start&quot;: &quot;12/1/2015&quot;, &quot;end&quot;: &quot;12/22/2015&quot;}], &quot;key&quot;: &quot;bestbuy&quot;, &quot;title&quot;: &quot;Best Buy&quot;, &quot;url&quot;: &quot;http://www.bestbuy.com/site/searchpage.jsp?st=onhub&amp;_dyncharset=UTF-8&amp;id=pcat17071&amp;type=page&amp;sc=Global&amp;cp=1&amp;nrp=&amp;sp=&amp;qp=&amp;list=n&amp;iht=y&amp;usc=All+Categories&amp;ks=960&amp;keys=keys&quot;, &quot;offer&quot;: &quot;Save $20&quot;, &quot;background_size&quot;: &quot;60px&quot;}, {&quot;offer_durations&quot;: [{&quot;start&quot;: &quot;12/6/2015&quot;, &quot;end&quot;: &quot;12/19/2015&quot;}, {&quot;start&quot;: &quot;12/27/2015&quot;, &quot;end&quot;: &quot;1/2/2016&quot;}], &quot;offer&quot;: &quot;Get a Chromecast with purchase&quot;, &quot;url&quot;: &quot;http://www.walmart.com/search/?query=onhub&quot;, &quot;title&quot;: &quot;Wal-Mart&quot;, &quot;key&quot;: &quot;walmart&quot;}, {&quot;url&quot;: &quot;http://www.target.com/p/onhub-wireless-router-from-google-and-asus/-/A-50198595&quot;, &quot;key&quot;: &quot;target&quot;, &quot;title&quot;: &quot;Target&quot;}, {&quot;url&quot;: &quot;http://www.officedepot.com/a/products/611930/Google-TP-LINK-OnHub-AC1900-Wireless/&quot;, &quot;key&quot;: &quot;officedepot&quot;, &quot;title&quot;: &quot;Office Depot&quot;}, {&quot;url&quot;: &quot;https://store.tp-link.us/onhub.html&quot;, &quot;title&quot;: &quot;TP-LINK Store&quot;, &quot;background_size&quot;: &quot;130px&quot;, &quot;key&quot;: &quot;tplinkstore&quot;, &quot;half&quot;: true}, {&quot;url&quot;: &quot;http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=onhub&quot;, &quot;key&quot;: &quot;amazon&quot;, &quot;title&quot;: &quot;Amazon&quot;}]"> 
+   <div class="aligner"> 
+    <div class="aligned mobile-block"> 
+     <div class="container"> 
+      <div class="grid"> 
+       <div class="unit one-third desktop-pad-right"> 
+        <h1>Get your OnHub</h1> 
+        <div class="subtitle bolded">
+          The router for the new way to Wi-Fi. 
+        </div> 
+        <div class="subtitle tagline">
+          OnHub routers give you fast Wi-Fi, speak your language, and keep getting better. 
+        </div> 
+       </div> 
+       <div class="unit two-thirds"> 
+        <div class="sized-on-mobile"> 
+         <div class="grid"> 
+          <div class="unit half"> 
+           <div class="asus device"> 
+            <div class="device-info grid no-stacking-on-mobiles"> 
+             <div class="unit golden-small"> 
+              <div class="info"> 
+               <div class="manufacturer">
+                 ASUS 
+               </div> 
+               <div class="desc">
+                 Boost Wi-Fi on a particular device with a wave of your hand. 
+               </div> 
+               <div class="price">
+                 $219.99 
+               </div> 
+              </div> 
+              <div class="colors"> 
+               <div class="color slate-gray"> 
+                <div class="swatch"></div> 
+                <div class="name">
+                  Slate Gray 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="unit golden-large"> 
+              <img class="product-image" src="/hub/static/images/asus_slate-gray.png"> 
+              <div class="googlestore buynow"> 
+               <a class="btn btn-blue" href="https://store.google.com/product/onhub_from_asus?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_campaign=ASUS" data-g-event="retailer:outgoing" data-g-action="googlestore">Buy now</a> 
+               <div class="label">
+                 from Google Store 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="unit half"> 
+           <div class="tplink device"> 
+            <div class="device-info grid no-stacking-on-mobiles"> 
+             <div class="unit golden-small"> 
+              <div class="info"> 
+               <div class="manufacturer">
+                 TP-LINK 
+               </div> 
+               <div class="desc">
+                 A front-facing antenna reflector for greater range in that direction. 
+               </div> 
+               <div class="price">
+                 $199.99 
+               </div> 
+              </div> 
+              <div class="colors"> 
+               <div class="color black"> 
+                <div class="swatch"></div> 
+                <div class="name">
+                  Black 
+                </div> 
+               </div> 
+               <div class="color blue"> 
+                <div class="swatch"></div> 
+                <div class="name">
+                  Blue 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="unit golden-large"> 
+              <img class="product-image" src="/hub/static/images/tplink_blue.png"> 
+              <div class="googlestore buynow"> 
+               <a class="btn btn-blue" href="https://store.google.com/product/onhub?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_campaign=TP-LINK" data-g-event="retailer:outgoing" data-g-action="googlestore">Buy now</a> 
+               <div class="label">
+                 from Google Store 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div id="retailers" , class="retailers"> 
+          <div class="other-retailers">
+            Also available at the following retailers: 
+          </div> 
+          <div class="grid no-gutters no-stacking-on-mobiles"> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer bestbuy" data-key="bestbuy"> 
+             <a href="http://www.bestbuy.com/site/searchpage.jsp?st=onhub&amp;_dyncharset=UTF-8&amp;id=pcat17071&amp;type=page&amp;sc=Global&amp;cp=1&amp;nrp=&amp;sp=&amp;qp=&amp;list=n&amp;iht=y&amp;usc=All+Categories&amp;ks=960&amp;keys=keys" data-generic-url="http://www.bestbuy.com/site/searchpage.jsp?st=onhub&amp;_dyncharset=UTF-8&amp;id=pcat17071&amp;type=page&amp;sc=Global&amp;cp=1&amp;nrp=&amp;sp=&amp;qp=&amp;list=n&amp;iht=y&amp;usc=All+Categories&amp;ks=960&amp;keys=keys" data-g-event="retailer:outgoing" data-g-action="bestbuy"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/bestbuy.png);"></div> 
+              <div class="offer offer--blurb" data-key="bestbuy"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer walmart" data-key="walmart"> 
+             <a href="http://www.walmart.com/search/?query=onhub" data-generic-url="http://www.walmart.com/search/?query=onhub" data-g-event="retailer:outgoing" data-g-action="walmart"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/walmart.png);"></div> 
+              <div class="offer offer--blurb" data-key="walmart"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer target" data-key="target"> 
+             <a href="http://www.target.com/p/onhub-wireless-router-from-google-and-asus/-/A-50198595" data-generic-url="http://www.target.com/p/onhub-wireless-router-from-google-and-asus/-/A-50198595" data-g-event="retailer:outgoing" data-g-action="target"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/target.png);"></div> 
+              <div class="offer offer--blurb" data-key="target"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer officedepot" data-key="officedepot"> 
+             <a href="http://www.officedepot.com/a/products/611930/Google-TP-LINK-OnHub-AC1900-Wireless/" data-generic-url="http://www.officedepot.com/a/products/611930/Google-TP-LINK-OnHub-AC1900-Wireless/" data-g-event="retailer:outgoing" data-g-action="officedepot"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/officedepot.png);"></div> 
+              <div class="offer offer--blurb" data-key="officedepot"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer tplinkstore" data-key="tplinkstore"> 
+             <a href="https://store.tp-link.us/onhub.html" data-generic-url="https://store.tp-link.us/onhub.html" data-g-event="retailer:outgoing" data-g-action="tplinkstore"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/tplinkstore.png);"></div> 
+              <div class="offer offer--blurb" data-key="tplinkstore"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer amazon" data-key="amazon"> 
+             <a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=onhub" data-generic-url="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=onhub" data-g-event="retailer:outgoing" data-g-action="amazon"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/amazon.png);"></div> 
+              <div class="offer offer--blurb" data-key="amazon"></div> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="disclaimer">
+            Products and colors vary by retailer. 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="fixed-item fixed-bg speed sized-mobile disable-sized-dynamic after bg fixed-outro" id="speed" data-top-top> 
+   <div class="fixed-content"> 
+    <div class="content-top aligner"> 
+     <div class="aligned"> 
+      <div class="grid title"> 
+       <div class="unit one-third"> 
+        <div class="contained None"> 
+         <h2>OnHub gives you<br> fast Wi-Fi.</h2> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="grid title"> 
+       <div class="unit one-third"> 
+        <div class="contained cta mobile-hide"> 
+         <div class="cta-video"> 
+          <a href="javascript:" data-yt-lightbox-video-id="KMg0HCtcVWA" data-g-event="section:speed:video1"> <i class="material-icons">?</i> Play video </a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="bottom callouts grid mobile-hide"> 
+       <div class="unit one-third"> 
+        <div class="contained"> 
+         <div class="title" data-g-event="callout:speed" data-g-action="1">
+           Speedy streaming for everyone 
+         </div> 
+         <div class="body">
+           OnHub makes the most of your existing Internet service by using smart software to find the best Wi-Fi connection. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="unit one-third"> 
+        <div class="contained"> 
+         <div class="title" data-g-event="callout:speed" data-g-action="2">
+           Bandwidth when you need it 
+         </div> 
+         <div class="body">
+           Prioritize a device so it has the fastest Wi-Fi speed for the activities that matter most. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="unit one-third"> 
+        <div class="contained"> 
+         <div class="title" data-g-event="callout:speed" data-g-action="3">
+           Wi-Fi with reach 
+         </div> 
+         <div class="body">
+           OnHub’s innovative circular antenna design provides reliable Wi-Fi coverage in more directions in your home. 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <div class="arrow"></div> 
+  <div class="bottom callouts grid mobile-show"> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:speed" data-g-action="1">
+       Speedy streaming for everyone 
+     </div> 
+     <div class="body">
+       OnHub makes the most of your existing Internet service by using smart software to find the best Wi-Fi connection. 
+     </div> 
+    </div> 
+   </div> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:speed" data-g-action="2">
+       Bandwidth when you need it 
+     </div> 
+     <div class="body">
+       Prioritize a device so it has the fastest Wi-Fi speed for the activities that matter most. 
+     </div> 
+    </div> 
+   </div> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:speed" data-g-action="3">
+       Wi-Fi with reach 
+     </div> 
+     <div class="body">
+       OnHub’s innovative circular antenna design provides reliable Wi-Fi coverage in more directions in your home. 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <section class="fixed-item fixed-bg disable-sized-dynamic speaks after fixed-outro" id="speaks" data-top-top> 
+   <div class="fixed-content"> 
+    <div class="content-top aligner"> 
+     <div class="aligned"> 
+      <div class="grid title"> 
+       <div class="unit one-third"> 
+        <div class="contained None"> 
+         <h2>OnHub speaks human.</h2> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="bottom callouts grid mobile-hide"> 
+       <div class="unit one-third"> 
+        <div class="contained"> 
+         <div class="title" data-g-event="callout:speaks" data-g-action="1">
+           Helpful feedback 
+         </div> 
+         <div class="body">
+           If there’s ever a problem with your network, the Google On app tells you what it is and how to fix it. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="unit one-third"> 
+        <div class="contained"> 
+         <div class="title" data-g-event="callout:speaks" data-g-action="2">
+           Simple setup 
+         </div> 
+         <div class="body">
+           The Google On app easily helps you set up your network and a separate, secure guest network as well. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="unit one-third"> 
+        <div class="contained"> 
+         <div class="title" data-g-event="callout:speaks" data-g-action="3">
+           Easier than 123_ccFjpx 
+         </div> 
+         <div class="body">
+           Choose a password you can remember, and share with a friend using the Google On app. 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <div class="arrow"></div> 
+  <div class="bottom callouts grid mobile-show"> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:speaks" data-g-action="1">
+       Helpful feedback 
+     </div> 
+     <div class="body">
+       If there’s ever a problem with your network, the Google On app tells you what it is and how to fix it. 
+     </div> 
+    </div> 
+   </div> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:speaks" data-g-action="2">
+       Simple setup 
+     </div> 
+     <div class="body">
+       The Google On app easily helps you set up your network and a separate, secure guest network as well. 
+     </div> 
+    </div> 
+   </div> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:speaks" data-g-action="3">
+       Easier than 123_ccFjpx 
+     </div> 
+     <div class="body">
+       Choose a password you can remember, and share with a friend using the Google On app. 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <section id="app" class="app centered mask"> 
+   <div class="container"> 
+    <h2>The Google On app puts you in charge.</h2> 
+   </div> 
+   <div class="callouts grid"> 
+    <div class="unit one-fourth"> 
+     <div class="contained"> 
+      <div class="image bandwidth"></div> 
+      <div class="title" data-g-event="callout:app" data-g-action="1">
+        Run a speed test 
+      </div> 
+      <div class="body">
+        Easily test the speed of your connection for hiccups, and the app gives you simple ways to get back to peak performance. 
+      </div> 
+     </div> 
+    </div> 
+    <div class="unit one-fourth"> 
+     <div class="contained"> 
+      <div class="image network"></div> 
+      <div class="title" data-g-event="callout:app" data-g-action="2">
+        Keep an eye on your network 
+      </div> 
+      <div class="body">
+        See each device that’s connected to your Wi-Fi and which are taking up the most bandwidth. 
+      </div> 
+     </div> 
+    </div> 
+    <div class="unit one-fourth"> 
+     <div class="contained"> 
+      <div class="image access"></div> 
+      <div class="title" data-g-event="callout:app" data-g-action="3">
+        Control from anywhere 
+      </div> 
+      <div class="body">
+        Use the Google On app to troubleshoot at home or away, see who’s on your network, or enable a friend to help you remotely. 
+      </div> 
+     </div> 
+    </div> 
+    <div class="unit one-fourth"> 
+     <div class="contained"> 
+      <div class="image guest-wifi"></div> 
+      <div class="title" data-g-event="callout:app" data-g-action="4">
+        Guest Wi-Fi with Device Sharing 
+      </div> 
+      <div class="body">
+        Quickly create a guest network and control the devices you share in your home. Guests can visit 
+       <a href="http://on.here" target="_blank">On.Here</a> to see the devices you’ve made available. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="fixed-item fixed-bg bg current after sized-mobile disable-sized-dynamic fixed-outro gradient" data-top-top id="current"> 
+   <div class="fixed-content"> 
+    <div class="content-top aligner"> 
+     <div class="aligned"> 
+      <div class="grid title"> 
+       <div class="unit one-third"> 
+        <div class="contained None"> 
+         <h2>OnHub keeps<br> getting better.</h2> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="bottom callouts grid mobile-hide"> 
+     <div class="unit one-third"> 
+      <div class="contained"> 
+       <div class="title" data-g-event="callout:stays-current" data-g-action="1">
+         Future friendly 
+       </div> 
+       <div class="body">
+         OnHub is designed to support a growing number of "smart devices" over time because it includes Bluetooth® Smart Ready, 802.15.4 and Weave. 
+       </div> 
+      </div> 
+     </div> 
+     <div class="unit one-third"> 
+      <div class="contained"> 
+       <div class="title" data-g-event="callout:stays-current" data-g-action="2">
+         Always improving 
+       </div> 
+       <div class="body">
+         OnHub often updates its router software with newly released features without any interruptions to your Wi-Fi. 
+       </div> 
+      </div> 
+     </div> 
+     <div class="unit one-third"> 
+      <div class="contained"> 
+       <div class="title" data-g-event="callout:stays-current" data-g-action="3">
+         Stays secure 
+       </div> 
+       <div class="body">
+         OnHub's software includes advanced and always-evolving security features to keep your network safe. 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <div class="arrow"></div> 
+  <div class="bottom callouts grid mobile-show"> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:stays-current" data-g-action="1">
+       Future friendly 
+     </div> 
+     <div class="body">
+       OnHub is designed to support a growing number of "smart devices" over time because it includes Bluetooth® Smart Ready, 802.15.4 and Weave. 
+     </div> 
+    </div> 
+   </div> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:stays-current" data-g-action="2">
+       Always improving 
+     </div> 
+     <div class="body">
+       OnHub often updates its router software with newly released features without any interruptions to your Wi-Fi. 
+     </div> 
+    </div> 
+   </div> 
+   <div class="unit one-third"> 
+    <div class="contained"> 
+     <div class="title" data-g-event="callout:stays-current" data-g-action="3">
+       Stays secure 
+     </div> 
+     <div class="body">
+       OnHub's software includes advanced and always-evolving security features to keep your network safe. 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <section id="shells" class="shells centered shadow"> 
+   <div class="container"> 
+    <h2>OnHub is designed to fit in your home.</h2> 
+   </div> 
+   <div class="callouts grid callouts--centered"> 
+    <div class="unit one-third"> 
+     <div class="contained"> 
+      <div class="image"> 
+       <img src="/hub/static/images/img_feature_01_asus-2x.png"> 
+      </div> 
+      <div class="title" data-g-event="shells:title" data-g-action="1">
+        Home friendly design 
+      </div> 
+      <div class="body ">
+        OnHub is designed to be out in the open, where Wi-Fi works best. It has minimized cords, subtle lighting you can dim, and antennas that are neatly tucked inside. 
+      </div> 
+     </div> 
+    </div> 
+    <div class="unit one-third"> 
+     <div class="contained"> 
+      <div class="image"> 
+       <img src="/hub/static/images/img_feature_02_makers.png"> 
+      </div> 
+      <div class="title" data-g-event="shells:title" data-g-action="2">
+        OnHub Makers 
+      </div> 
+      <div class="body body--with-cta">
+        We partnered with artists, designers and makers to see what they could do with OnHub from TP-LINK. 
+      </div> 
+      <div class="cta cta--arrow"> 
+       <a target="_blank" href="http://g.co/onhubmakers" data-g-event="outgoing:shells:" data-g-action="Learn more"> Learn more <i class="material-icons">?</i> </a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="unit one-third"> 
+     <div class="contained"> 
+      <div class="image"> 
+       <img src="/hub/static/images/img_feature_03_shells.png"> 
+      </div> 
+      <div class="title" data-g-event="shells:title" data-g-action="3">
+        Shells for OnHub (TP-LINK) 
+      </div> 
+      <div class="body body--with-cta">
+        Google has created three limited-edition shells so you can find one to fit your home. 
+      </div> 
+      <div class="cta cta--arrow"> 
+       <a target="_blank" href="https://store.google.com/product/shell_for_onhub_tplink?utm_source=OnHub&amp;utm_medium=MS&amp;utm_campaign=shells" data-g-event="outgoing:shells:" data-g-action="Buy now"> Buy now <i class="material-icons">?</i> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="shadow specs mask centered" id="specs" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened || specsOpened}"> 
+   <div class="details centered"> 
+    <i ng-click="ctrl.close()" class="material-icons">?</i> 
+    <h2>Tech Specs</h2> 
+    <h3>Size and weight</h3> 
+    <table> 
+     <thead> 
+      <tr> 
+       <td> </td> 
+       <td class="asus">ASUS </td> 
+       <td class="tplink">TP-LINK </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>Price </td> 
+       <td class="asus">$219.99 </td> 
+       <td class="tplink">$199.99 </td> 
+      </tr> 
+      <tr> 
+       <td>Size </td> 
+       <td class="asus">7.94in x 5.03in x 5.20in </td> 
+       <td class="tplink">7.5in x 4.1in x 4.6in </td> 
+      </tr> 
+      <tr> 
+       <td>Weight </td> 
+       <td class="asus">1.66lb </td> 
+       <td class="tplink">1.9lb </td> 
+      </tr> 
+      <tr> 
+       <td>Color </td> 
+       <td class="asus">Slate Gray </td> 
+       <td class="tplink">Blue or Black </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h3>Hardware</h3> 
+    <table> 
+     <thead> 
+      <tr> 
+       <td> </td> 
+       <td class="asus">ASUS </td> 
+       <td class="tplink">TP-LINK </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>Proximity Sensor </td> 
+       <td class="asus">? </td> 
+       <td class="tplink"> </td> 
+      </tr> 
+      <tr> 
+       <td>Front-facing antenna </td> 
+       <td class="asus"> </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>Lighting </td> 
+       <td class="asus">Subtle lighting on the base (single tri-color LED) </td> 
+       <td class="tplink">Ambient light ring on top (six tri-color LEDs) </td> 
+      </tr> 
+      <tr> 
+       <td>Congestion Sensing Radio </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>CPU </td> 
+       <td class="asus">Dual core each up to 1.4GHz </td> 
+       <td class="tplink">Dual core each up to 1.4GHz </td> 
+      </tr> 
+      <tr> 
+       <td>e-MMC flash </td> 
+       <td class="asus">4GB </td> 
+       <td class="tplink">4GB </td> 
+      </tr> 
+      <tr> 
+       <td>Memory </td> 
+       <td class="asus">1GB </td> 
+       <td class="tplink">1GB </td> 
+      </tr> 
+      <tr> 
+       <td>Ports </td> 
+       <td class="asus">1x WAN, 1xLAN, 1x USB 3.0 </td> 
+       <td class="tplink">1x WAN, 1xLAN, 1x USB 3.0 </td> 
+      </tr> 
+      <tr> 
+       <td>Speaker (used in setup process) </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>NOR Flash </td> 
+       <td class="asus">8MB </td> 
+       <td class="tplink">8MB </td> 
+      </tr> 
+      <tr> 
+       <td>Trusted platform module </td> 
+       <td class="asus">Infineon SLB 9615 </td> 
+       <td class="tplink">Infineon SLB 9615 </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h3>Electrical and environmental requirements</h3> 
+    <table> 
+     <thead> 
+      <tr> 
+       <td> </td> 
+       <td class="asus">ASUS </td> 
+       <td class="tplink">TP-LINK </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>DC in </td> 
+       <td class="asus">&lt;19V*1.75A </td> 
+       <td class="tplink">&lt;12V*3A </td> 
+      </tr> 
+      <tr> 
+       <td>AC in </td> 
+       <td class="asus">100~240V 50~60Hz </td> 
+       <td class="tplink">100~240V 50~60Hz </td> 
+      </tr> 
+      <tr> 
+       <td>Operating temperature ranges </td> 
+       <td class="asus">0-40°C </td> 
+       <td class="tplink">0-40°C </td> 
+      </tr> 
+      <tr> 
+       <td>Operating humidity </td> 
+       <td class="asus">0-90% humidity; non-condensing </td> 
+       <td class="tplink">0-90% humidity; non-condensing </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h3>Networking</h3> 
+    <table> 
+     <thead> 
+      <tr> 
+       <td> </td> 
+       <td class="asus">ASUS </td> 
+       <td class="tplink">TP-LINK </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>AUX Wireless </td> 
+       <td class="asus">802.11a/b/g/n/ac 1x1 </td> 
+       <td class="tplink">802.11a/b/g/n/ac 1x1 </td> 
+      </tr> 
+      <tr> 
+       <td>Ethernet Switch </td> 
+       <td class="asus">QCA8337 Gigabit sw </td> 
+       <td class="tplink">QCA8337 Gigabit sw </td> 
+      </tr> 
+      <tr> 
+       <td>Connectivity </td> 
+       <td class="asus">AC1900 </td> 
+       <td class="tplink">AC1900 </td> 
+      </tr> 
+      <tr> 
+       <td>Wireless Support </td> 
+       <td class="asus">IEEE 802.11a/b/g/n/ac </td> 
+       <td class="tplink">IEEE 802.11a/b/g/n/ac </td> 
+      </tr> 
+      <tr> 
+       <td>2.4 &amp; 5GHz Wireless </td> 
+       <td class="asus">Dual concurrent 3x3 with Smart Antenna </td> 
+       <td class="tplink">Dual concurrent 3x3 with Smart Antenna </td> 
+      </tr> 
+      <tr> 
+       <td>WAN Port </td> 
+       <td class="asus">1x 10/100/1000 Mbps </td> 
+       <td class="tplink">1x 10/100/1000 Mbps </td> 
+      </tr> 
+      <tr> 
+       <td>LAN Port </td> 
+       <td class="asus">1x 10/100/1000 Mbps </td> 
+       <td class="tplink">1x 10/100/1000 Mbps </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h3>Compatibility</h3> 
+    <table> 
+     <thead> 
+      <tr> 
+       <td> </td> 
+       <td class="asus">ASUS </td> 
+       <td class="tplink">TP-LINK </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>Thread (coming soon) </td> 
+       <td class="asus">802.15.4 Conformance </td> 
+       <td class="tplink">802.15.4 Conformance </td> 
+      </tr> 
+      <tr> 
+       <td>Bluetooth Smart Ready </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>802.15.4 Ready </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>Weave Ready </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>Wireless Security </td> 
+       <td class="asus">WPA2-PSK </td> 
+       <td class="tplink">WPA2-PSK </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h3>Other</h3> 
+    <table> 
+     <thead> 
+      <tr> 
+       <td> </td> 
+       <td class="asus">ASUS </td> 
+       <td class="tplink">TP-LINK </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>TPM (trusted boot) </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>Warranty </td> 
+       <td class="asus">2 years </td> 
+       <td class="tplink">2 years </td> 
+      </tr> 
+      <tr> 
+       <td>Auto-updates </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+      <tr> 
+       <td>iOS &amp; Android App </td> 
+       <td class="asus">? </td> 
+       <td class="tplink">? </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h3>System requirements</h3> 
+    <div class="system-reqs">
+      A broadband Internet connection. For initial setup, the Google On app on a device with Android 4.0 or higher or iOS 7 or higher is required. 
+    </div> 
+   </div> 
+   <div class="peek hidden"> 
+    <div id="animation-trigger" style="position: static;"></div> 
+    <div class="device-tabs" ng-controller="SpecsController as specs"> 
+     <div class="container"> 
+      <div class="tabs"> 
+       <div class="asus" ng-class="{'active': specs.selected == 'asus'}" ng-click="specs.selected = 'asus'" data-g-event="specs:switch" data-g-action="asus"> 
+        <div class="logo"></div> 
+        <div class="name">
+          ASUS 
+        </div> 
+       </div> 
+       <div class="tplink" ng-class="{'active': specs.selected == 'tplink'}" ng-click="specs.selected = 'tplink'" data-g-event="specs:switch" data-g-action="tplink"> 
+        <div class="logo"></div> 
+        <div class="name">
+          TP-LINK 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="asus tab-content" ng-hide="specs.selected != 'asus'" id="specs-asus"> 
+      <div class="container"> 
+       <div class="grid"> 
+        <div class="unit one-third"> 
+         <div class="content"> 
+          <h2>Do more with 
+           <nobr>
+             Wave Control 
+           </nobr></h2> 
+          <div class="body">
+            Streaming a movie? Downloading a presentation? In a busy house, sometimes that’s a tall order. Wave Control allows you to boost the Wi-Fi speed for a particular device by simply passing your hand over the top of OnHub. 
+          </div> 
+         </div> 
+        </div> 
+        <div class="unit two-thirds no-gutters"> 
+         <div class="an462_anim_asus" id="asus-animation"> 
+          <img class="an462_anim_asus--img an462_anim_asus--img__arrow an462_anim--op0" src="/hub/static/images/anim/asus/arrow.png" alt="arrow"> 
+          <img class="an462_anim_asus--img an462_anim_asus--img__asus" src="/hub/static/images/anim/asus/asus.png" alt="asus"> 
+          <img class="an462_anim_asus--img an462_anim_asus--img__glow" src="/hub/static/images/anim/asus/glow.png" alt="glow"> 
+          <img class="an462_anim_asus--img an462_anim_asus--img__hand an462_anim--op0 an462_anim_asus--img__hand__off" src="/hub/static/images/anim/asus/hand.png" alt="hand"> 
+          <div class="an462_anim_asus--data-lines"> 
+           <div class="an462_anim_asus--data-lines__line1"> 
+            <div class="an462_anim_asus--data-lines__dot dot1" data-translate="0"></div> 
+            <div class="an462_anim_asus--data-lines__dot dot3" data-translate="70"></div> 
+            <div class="an462_anim_asus--data-lines__reduced-data"> 
+             <div class="an462_anim_asus--data-lines__dot dot2" data-translate="35"></div> 
+             <div class="an462_anim_asus--data-lines__dot dot4" data-translate="105"></div> 
+            </div> 
+           </div> 
+           <div class="an462_anim_asus--data-lines__line2"> 
+            <div class="an462_anim_asus--data-lines__dot dot1" data-translate="0"></div> 
+            <div class="an462_anim_asus--data-lines__dot dot2" data-translate="35"></div> 
+            <div class="an462_anim_asus--data-lines__dot dot3" data-translate="70"></div> 
+            <div class="an462_anim_asus--data-lines__dot dot4" data-translate="105"></div> 
+            <div class="an462_anim_asus--data-lines__additional-data"> 
+             <div class="an462_anim_asus--data-lines__dot dot5" data-translate="17.5"></div> 
+             <div class="an462_anim_asus--data-lines__dot dot6" data-translate="52.5"></div> 
+             <div class="an462_anim_asus--data-lines__dot dot7" data-translate="87.5"></div> 
+             <div class="an462_anim_asus--data-lines__dot dot8" data-translate="122.5"></div> 
+            </div> 
+           </div> 
+           <div class="an462_anim_asus--data-lines__line3"> 
+            <div class="an462_anim_asus--data-lines__dot dot1" data-translate="0"></div> 
+            <div class="an462_anim_asus--data-lines__dot dot3" data-translate="70"></div> 
+            <div class="an462_anim_asus--data-lines__reduced-data"> 
+             <div class="an462_anim_asus--data-lines__dot dot2" data-translate="35"></div> 
+             <div class="an462_anim_asus--data-lines__dot dot4" data-translate="105"></div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="an462_anim_asus--device an462_anim_asus--device__laptop"> 
+           <div class="an462_anim_asus--icon_cont"> 
+            <img class="an462_anim_asus--icon an462_anim_asus--icon__laptop an462_anim_asus--icon" src="/hub/static/images/anim/asus/laptop.png" alt="Laptop"> 
+            <div class="caption">
+              Laptop 
+            </div> 
+           </div> 
+          </div> 
+          <div class="an462_anim_asus--device an462_anim_asus--device__streaming"> 
+           <div class="an462_anim_asus--icon_cont"> 
+            <img class="an462_anim_asus--icon an462_anim_asus--icon__streaming an462_anim_asus--icon" src="/hub/static/images/anim/asus/streaming.png" alt="TV"> 
+            <img class="an462_anim_asus--icon an462_anim_asus--icon__streaming an462_anim--op0 an462_anim_asus--icon__desktop an462_anim--op0" src="/hub/static/images/anim/asus/streaming_active.png" alt="TV"> 
+            <div class="caption">
+              TV 
+            </div> 
+           </div> 
+          </div> 
+          <div class="an462_anim_asus--device an462_anim_asus--device__phone"> 
+           <div class="an462_anim_asus--icon_cont"> 
+            <img class="an462_anim_asus--icon an462_anim_asus--icon__phone an462_anim_asus--icon" src="/hub/static/images/anim/asus/phone.png" alt="Phone"> 
+            <div class="caption caption--phone">
+              Phone 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="tplink tab-content" ng-hide="specs.selected != 'tplink'" id="specs-tplink"> 
+      <div class="container"> 
+       <div class="grid"> 
+        <div class="unit one-third"> 
+         <div class="content"> 
+          <h2>Boost your range in one direction</h2> 
+          <div class="body">
+            To provide an even stronger signal, OnHub from TP-LINK has a specialized reflector for an antenna that focuses Wi-Fi signal and boosts range in that direction. 
+          </div> 
+          <div class="exps exps--hidden"> 
+           <div class="exp frontfacing"> 
+            <div class="line line--standard"> 
+             <div class="border"></div> 
+             <div class="circle"></div> 
+            </div> 
+            <div class="title">
+              Front-facing antenna 
+            </div> 
+            <div class="body">
+              A specialized reflector for a 2.4GHz antenna acts like a satellite dish that focuses the Wi-Fi signal and boosts range in that direction. 
+            </div> 
+           </div> 
+           <div class="exp unique"> 
+            <div class="line line--standard"> 
+             <div class="border"></div> 
+             <div class="circle"></div> 
+            </div> 
+            <div class="title">
+              Unique antenna design 
+            </div> 
+            <div class="body">
+              OnHub has six 2.4GHz antennas and six 5GHz antennas tucked away inside the shell. We set each of these pairs 120 degrees apart in a circular pattern for reliable Wi-Fi coverage in more directions in your home. 
+            </div> 
+           </div> 
+           <div class="exp speaker"> 
+            <div class="line line--standard"> 
+             <div class="border"></div> 
+             <div class="circle"></div> 
+            </div> 
+            <div class="title">
+              Speaker 
+            </div> 
+            <div class="body">
+              When you set up OnHub using an Android device, it uses an audio tone to send a setup code directly to your mobile device for easy and secure setup. 
+            </div> 
+           </div> 
+           <div class="exp congestion"> 
+            <div class="line line--standard"> 
+             <div class="border"></div> 
+             <div class="circle"></div> 
+            </div> 
+            <div class="title">
+              Congestion-sensing radio and antenna 
+            </div> 
+            <div class="body">
+              OnHub regularly evaluates the environment and adjusts wireless settings if it discovers interference from other devices nearby. 
+            </div> 
+           </div> 
+           <div class="exp dimmable"> 
+            <div class="line line--standard"> 
+             <div class="border"></div> 
+             <div class="circle"></div> 
+            </div> 
+            <div class="title">
+              Dimmable light ring 
+            </div> 
+            <div class="body">
+              A dimmable light ring communicates using four deliberate colors. No more unintelligible blinking lights. 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="unit two-thirds no-gutters"> 
+         <div class="an462_anim_tp"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__base_back" src="/hub/static/images/anim/tplink/base_back.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__base_front" src="/hub/static/images/anim/tplink/base_front.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__glow_ring" src="/hub/static/images/anim/tplink/glow_ring.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__radio an462_anim--op0" src="/hub/static/images/anim/tplink/radio.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__shell_back" src="/hub/static/images/anim/tplink/shell_back.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__shell_front" src="/hub/static/images/anim/tplink/shell_front.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_wifi_back an462_anim_tp--img__sm_wifi_back_1 an462_anim--op0 exclude" src="/hub/static/images/anim/tplink/sm_wifi_back_1.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_wifi_back an462_anim_tp--img__sm_wifi_back_2 an462_anim--op0 exclude" src="/hub/static/images/anim/tplink/sm_wifi_back_2.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_wifi_back an462_anim_tp--img__sm_wifi_back_3 an462_anim--op0 exclude" src="/hub/static/images/anim/tplink/sm_wifi_back_3.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_panels_back" src="/hub/static/images/anim/tplink/sm_panels_back.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_panels_front" src="/hub/static/images/anim/tplink/sm_panels_front.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_wifi_front an462_anim_tp--img__sm_wifi_front_1 an462_anim--op0 exclude" src="/hub/static/images/anim/tplink/sm_wifi_front_1.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_wifi_front an462_anim_tp--img__sm_wifi_front_2 an462_anim--op0 exclude" src="/hub/static/images/anim/tplink/sm_wifi_front_2.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__sm_wifi_front an462_anim_tp--img__sm_wifi_front_3 an462_anim--op0 exclude" src="/hub/static/images/anim/tplink/sm_wifi_front_3.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__top_disc" src="/hub/static/images/anim/tplink/top_disc.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__wifi an462_anim_tp--img__wifi_1" src="/hub/static/images/anim/tplink/wifi_1.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__wifi an462_anim_tp--img__wifi_2 an462_anim_tp--img__wifi--fade" src="/hub/static/images/anim/tplink/wifi_2.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__wifi an462_anim_tp--img__wifi_3 an462_anim_tp--img__wifi--fade" src="/hub/static/images/anim/tplink/wifi_3.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__wifi an462_anim_tp--img__wifi_4 an462_anim_tp--img__wifi--fade" src="/hub/static/images/anim/tplink/wifi_4.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__wifi an462_anim_tp--img__wifi_5 an462_anim_tp--img__wifi--fade" src="/hub/static/images/anim/tplink/wifi_5.png"> 
+          <img class="an462_anim_tp--img an462_anim_tp--img__wifi an462_anim_tp--img__wifi_6 an462_anim_tp--img__wifi--fade" src="/hub/static/images/anim/tplink/wifi_6.png"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="accordion-content"> 
+    <h2>A Closer Look</h2> 
+    <div class="grid centered"> 
+     <div class="embed-container"> 
+      <div class="video-container"> 
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/0Yk-X4pOW6w?enablejsapi=1" frameborder="0" allowfullscreen id="specs-video"></iframe> 
+       <script>
+            window.setTimeout(function() {
+              jetstream.youtube.createPlayer('specs-video', null, 'specs:video');
+            }, 10);
+          </script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="callouts grid"> 
+     <div class="callout"> 
+      <div class="contained"> 
+       <div class="icon device-friendly"></div> 
+       <div class="title">
+         Device friendly 
+       </div> 
+       <div class="body">
+         OnHub connects with your laptop or tablet through 802.11a/b/g/n/ac, and includes next-generation technologies like Bluetooth® Smart Ready, Weave, and 802.15.4, so that over time it will support a growing number of “smart devices.” 
+       </div> 
+      </div> 
+     </div> 
+     <div class="callout"> 
+      <div class="contained"> 
+       <div class="icon bye-bye-buffering"></div> 
+       <div class="title">
+         Bring on speed 
+       </div> 
+       <div class="body">
+         OnHub gives you Wi-Fi at a speed of up to 1900 Mbps by supporting both 2.4 and 5GHz frequencies, which means fast Wi-Fi for everyone. 
+       </div> 
+      </div> 
+     </div> 
+     <div class="callout"> 
+      <div class="contained"> 
+       <div class="icon skip-the-crowds"></div> 
+       <div class="title">
+         Bye bye buffering 
+       </div> 
+       <div class="body">
+         To give you fast Wi-Fi, OnHub’s antennas are arranged in a unique circular pattern. 
+       </div> 
+      </div> 
+     </div> 
+     <div class="callout"> 
+      <div class="contained"> 
+       <div class="icon plenty-of-room"></div> 
+       <div class="title">
+         Plenty of room 
+       </div> 
+       <div class="body">
+         OnHub has 4GB of storage space, so there’s plenty of room for auto-updates and the latest software features. 
+       </div> 
+      </div> 
+     </div> 
+     <div class="callout"> 
+      <div class="contained"> 
+       <div class="icon light-the-way"></div> 
+       <div class="title">
+         Light the way 
+       </div> 
+       <div class="body">
+         Finally, no blinking lights! OnHub uses dimmable lighting to give you feedback. 
+       </div> 
+      </div> 
+     </div> 
+     <div class="callout"> 
+      <div class="contained"> 
+       <div class="expand"> 
+        <a href="javascript:" ng-click="ctrl.toggle(); ctrl.scrollTo($event, '#specs')" data-g-event="specs:toggle"> See detailed specs </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="intro  disable-sized-dynamic marquee-retail" id="buy" ng-controller="RetailController as ctrl" ng-hide="retailVariation" ng-cloak ng-init="ctrl.retailers = [{&quot;background_size&quot;: &quot;120px&quot;, &quot;key&quot;: &quot;googlestore&quot;, &quot;title&quot;: &quot;Google Store&quot;, &quot;url&quot;: &quot;https://store.google.com/category/onhub_wifi_routers?sticky_source_country=us&amp;utm_source=OnHub&amp;utm_medium=MS&amp;utm_campaign=OH_category_page&quot;, &quot;half&quot;: true, &quot;size&quot;: &quot;full&quot;}, {&quot;offer_durations&quot;: [{&quot;start&quot;: &quot;12/1/2015&quot;, &quot;end&quot;: &quot;12/22/2015&quot;}], &quot;key&quot;: &quot;bestbuy&quot;, &quot;title&quot;: &quot;Best Buy&quot;, &quot;url&quot;: &quot;http://www.bestbuy.com/site/searchpage.jsp?st=onhub&amp;_dyncharset=UTF-8&amp;id=pcat17071&amp;type=page&amp;sc=Global&amp;cp=1&amp;nrp=&amp;sp=&amp;qp=&amp;list=n&amp;iht=y&amp;usc=All+Categories&amp;ks=960&amp;keys=keys&quot;, &quot;offer&quot;: &quot;Save $20&quot;, &quot;background_size&quot;: &quot;60px&quot;}, {&quot;offer_durations&quot;: [{&quot;start&quot;: &quot;12/6/2015&quot;, &quot;end&quot;: &quot;12/19/2015&quot;}, {&quot;start&quot;: &quot;12/27/2015&quot;, &quot;end&quot;: &quot;1/2/2016&quot;}], &quot;offer&quot;: &quot;Get a Chromecast with purchase&quot;, &quot;url&quot;: &quot;http://www.walmart.com/search/?query=onhub&quot;, &quot;title&quot;: &quot;Wal-Mart&quot;, &quot;key&quot;: &quot;walmart&quot;}, {&quot;url&quot;: &quot;http://www.target.com/p/onhub-wireless-router-from-google-and-asus/-/A-50198595&quot;, &quot;key&quot;: &quot;target&quot;, &quot;title&quot;: &quot;Target&quot;}, {&quot;url&quot;: &quot;http://www.officedepot.com/a/products/611930/Google-TP-LINK-OnHub-AC1900-Wireless/&quot;, &quot;key&quot;: &quot;officedepot&quot;, &quot;title&quot;: &quot;Office Depot&quot;}, {&quot;url&quot;: &quot;https://store.tp-link.us/onhub.html&quot;, &quot;title&quot;: &quot;TP-LINK Store&quot;, &quot;background_size&quot;: &quot;130px&quot;, &quot;key&quot;: &quot;tplinkstore&quot;, &quot;half&quot;: true}, {&quot;url&quot;: &quot;http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=onhub&quot;, &quot;key&quot;: &quot;amazon&quot;, &quot;title&quot;: &quot;Amazon&quot;}]"> 
+   <div class="aligner"> 
+    <div class="aligned mobile-block"> 
+     <div class="container"> 
+      <div class="grid"> 
+       <div class="unit one-third desktop-pad-right"> 
+        <h1>Get your OnHub</h1> 
+        <div class="subtitle bolded">
+          The router for the new way to Wi-Fi. 
+        </div> 
+        <div class="subtitle tagline">
+          OnHub routers give you fast Wi-Fi, speak your language, and keep getting better. 
+        </div> 
+       </div> 
+       <div class="unit two-thirds"> 
+        <div class="sized-on-mobile"> 
+         <div class="grid"> 
+          <div class="unit half"> 
+           <div class="asus device"> 
+            <div class="device-info grid no-stacking-on-mobiles"> 
+             <div class="unit golden-small"> 
+              <div class="info"> 
+               <div class="manufacturer">
+                 ASUS 
+               </div> 
+               <div class="desc">
+                 Boost Wi-Fi on a particular device with a wave of your hand. 
+               </div> 
+               <div class="price">
+                 $219.99 
+               </div> 
+              </div> 
+              <div class="colors"> 
+               <div class="color slate-gray"> 
+                <div class="swatch"></div> 
+                <div class="name">
+                  Slate Gray 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="unit golden-large"> 
+              <img class="product-image" src="/hub/static/images/asus_slate-gray.png"> 
+              <div class="googlestore buynow"> 
+               <a class="btn btn-blue" href="https://store.google.com/product/onhub_from_asus?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_campaign=ASUS" data-g-event="retailer:outgoing" data-g-action="googlestore">Buy now</a> 
+               <div class="label">
+                 from Google Store 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="unit half"> 
+           <div class="tplink device"> 
+            <div class="device-info grid no-stacking-on-mobiles"> 
+             <div class="unit golden-small"> 
+              <div class="info"> 
+               <div class="manufacturer">
+                 TP-LINK 
+               </div> 
+               <div class="desc">
+                 A front-facing antenna reflector for greater range in that direction. 
+               </div> 
+               <div class="price">
+                 $199.99 
+               </div> 
+              </div> 
+              <div class="colors"> 
+               <div class="color black"> 
+                <div class="swatch"></div> 
+                <div class="name">
+                  Black 
+                </div> 
+               </div> 
+               <div class="color blue"> 
+                <div class="swatch"></div> 
+                <div class="name">
+                  Blue 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="unit golden-large"> 
+              <img class="product-image" src="/hub/static/images/tplink_blue.png"> 
+              <div class="googlestore buynow"> 
+               <a class="btn btn-blue" href="https://store.google.com/product/onhub?utm_source=OnHub_Website&amp;utm_medium=Marquee&amp;utm_campaign=TP-LINK" data-g-event="retailer:outgoing" data-g-action="googlestore">Buy now</a> 
+               <div class="label">
+                 from Google Store 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div id="retailers" , class="retailers"> 
+          <div class="other-retailers">
+            Also available at the following retailers: 
+          </div> 
+          <div class="grid no-gutters no-stacking-on-mobiles"> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer bestbuy" data-key="bestbuy"> 
+             <a href="http://www.bestbuy.com/site/searchpage.jsp?st=onhub&amp;_dyncharset=UTF-8&amp;id=pcat17071&amp;type=page&amp;sc=Global&amp;cp=1&amp;nrp=&amp;sp=&amp;qp=&amp;list=n&amp;iht=y&amp;usc=All+Categories&amp;ks=960&amp;keys=keys" data-generic-url="http://www.bestbuy.com/site/searchpage.jsp?st=onhub&amp;_dyncharset=UTF-8&amp;id=pcat17071&amp;type=page&amp;sc=Global&amp;cp=1&amp;nrp=&amp;sp=&amp;qp=&amp;list=n&amp;iht=y&amp;usc=All+Categories&amp;ks=960&amp;keys=keys" data-g-event="retailer:outgoing" data-g-action="bestbuy"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/bestbuy.png);"></div> 
+              <div class="offer offer--blurb" data-key="bestbuy"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer walmart" data-key="walmart"> 
+             <a href="http://www.walmart.com/search/?query=onhub" data-generic-url="http://www.walmart.com/search/?query=onhub" data-g-event="retailer:outgoing" data-g-action="walmart"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/walmart.png);"></div> 
+              <div class="offer offer--blurb" data-key="walmart"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer target" data-key="target"> 
+             <a href="http://www.target.com/p/onhub-wireless-router-from-google-and-asus/-/A-50198595" data-generic-url="http://www.target.com/p/onhub-wireless-router-from-google-and-asus/-/A-50198595" data-g-event="retailer:outgoing" data-g-action="target"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/target.png);"></div> 
+              <div class="offer offer--blurb" data-key="target"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer officedepot" data-key="officedepot"> 
+             <a href="http://www.officedepot.com/a/products/611930/Google-TP-LINK-OnHub-AC1900-Wireless/" data-generic-url="http://www.officedepot.com/a/products/611930/Google-TP-LINK-OnHub-AC1900-Wireless/" data-g-event="retailer:outgoing" data-g-action="officedepot"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/officedepot.png);"></div> 
+              <div class="offer offer--blurb" data-key="officedepot"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer tplinkstore" data-key="tplinkstore"> 
+             <a href="https://store.tp-link.us/onhub.html" data-generic-url="https://store.tp-link.us/onhub.html" data-g-event="retailer:outgoing" data-g-action="tplinkstore"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/tplinkstore.png);"></div> 
+              <div class="offer offer--blurb" data-key="tplinkstore"></div> </a> 
+            </div> 
+           </div> 
+           <div class="unit one-third mobile-half "> 
+            <div class="retailer amazon" data-key="amazon"> 
+             <a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=onhub" data-generic-url="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=onhub" data-g-event="retailer:outgoing" data-g-action="amazon"> 
+              <div class="logo" style="background-image: url(/hub/static/images/retailers/amazon.png);"></div> 
+              <div class="offer offer--blurb" data-key="amazon"></div> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="disclaimer">
+            Products and colors vary by retailer. 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="reviews centered" id="reviews"> 
+   <div class="aligner"> 
+    <div class="aligned"> 
+     <div class="container"> 
+      <div class="grid"> 
+       <div class="unit one-third"> 
+        <h2>Reviews</h2> 
+       </div> 
+       <div class="unit two-thirds"> 
+        <div class="tplink"> 
+         <h3>TP-LINK</h3> 
+         <ul> 
+          <li> 
+           <div class="review r-bottom"> 
+            <div class="quote">
+              This thing blasts Wi-Fi through your home like a fire hose on an anthill. 
+            </div> 
+            <div class="cta"> 
+             <a target="_blank" href="https://www.yahoo.com/tech/google-onhub-review-the-wi-fi-router-steve-jobs-128044636664.html" data-g-event="outgoing:review:tplink" data-g-action="Yahoo! Tech">Read the full review at 
+              <nobr>
+                Yahoo! Tech 
+              </nobr> <i class="material-icons">?</i></a> 
+            </div> 
+           </div> </li> 
+          <li> 
+           <div class="review r-bottom"> 
+            <div class="quote">
+              The best wireless networking my home has ever seen. 
+            </div> 
+            <div class="cta"> 
+             <a target="_blank" href="http://www.wsj.com/articles/google-onhub-review-the-wi-fi-router-gets-a-brain-1441004460" data-g-event="outgoing:review:tplink" data-g-action="The Wall Street Journal">Read the full review at 
+              <nobr>
+                The Wall Street Journal 
+              </nobr> <i class="material-icons">?</i></a> 
+            </div> 
+           </div> </li> 
+          <li> 
+           <div class="review r-bottom"> 
+            <div class="quote">
+              Coverage and throughput are shockingly good 
+            </div> 
+            <div class="cta"> 
+             <a target="_blank" href="http://www.theverge.com/2015/8/31/9228739/google-onhub-router-wifi-review" data-g-event="outgoing:review:tplink" data-g-action="The Verge">Read the full review at 
+              <nobr>
+                The Verge 
+              </nobr> <i class="material-icons">?</i></a> 
+            </div> 
+           </div> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="faq" class="faq centered mask"> 
+   <div class="container"> 
+    <div class="grid no-gutters"> 
+     <div class="unit one-third"> 
+      <h2>FAQ</h2> 
+     </div> 
+     <div class="unit two-thirds"> 
+      <div class="questions"> 
+       <div class="item" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened}"> 
+        <div class="content"> 
+         <div class="question" ng-click="ctrl.toggle()" data-g-event="faq" data-g-action="compare"> 
+          <i class="toggle material-icons">?</i> 
+          <span class="title">How are the two OnHub models different?</span> 
+          <span class="snippet">It’s all in the design.</span> 
+         </div> 
+         <div class="answer">
+           OnHub is available from both ASUS and TP-Link. Both are powerful AC1900 routers and work with the Google On companion app. But each has a different elegant exterior design, along with two key differences. OnHub from TP-Link features a front-facing antenna reflector that acts like a satellite dish enhancing Wi-Fi range in that direction. OnHub from ASUS lets you control your OnHub with a wave over the top. For example, wave to prioritize a device to ensure it has enough Wi-Fi bandwidth, like Chromecast while streaming a movie. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened}"> 
+        <div class="content"> 
+         <div class="question" ng-click="ctrl.toggle()" data-g-event="faq" data-g-action="wifi-better"> 
+          <i class="toggle material-icons">?</i> 
+          <span class="title">Will OnHub make my home Wi-Fi better?</span> 
+          <span class="snippet">You’ll likely see an improvement.</span> 
+         </div> 
+         <div class="answer">
+           OnHub works with your existing Internet service and wireless devices so you get smooth streaming and speedy downloads. It can’t change the connection from your Internet provider, but it can improve the Wi-Fi connection to your devices. It’s an AC1900 router, which means fast Wi-Fi on all your devices. Plus, its software finds you the best Wi-Fi connection, and its circular antenna design provides reliable coverage in more directions in your home. For more technical details, see 
+          <a href="#specs" data-scroll ng-click="setSpecsOpened(true)">OnHub’s full tech specs</a>. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened}"> 
+        <div class="content"> 
+         <div class="question" ng-click="ctrl.toggle()" data-g-event="faq" data-g-action="different"> 
+          <i class="toggle material-icons">?</i> 
+          <span class="title">How is OnHub different from other routers?</span> 
+          <span class="snippet">It’s built for the new ways you use Wi-Fi.</span> 
+         </div> 
+         <div class="answer"> 
+          <p>Today, we’re using Wi-Fi in ways our old routers were never meant to handle. That’s why we built OnHub, a new router thoughtfully designed for you and your home - and every way you stream and share.</p> 
+          <p>OnHub looks different from other routers out there because it’s designed to be out in the open, which gives you the best signal. It has a dimmable light ring, the cables are minimized to look tidier, and its high-performance antennas are neatly hidden away inside its shell.</p> 
+          <p>OnHub combines high-performance hardware and innovative software, with the easy-to-use Google On mobile app. The app speaks in a language you understand. That means it guides you through simple setup, makes it easy to see which devices are connected to your network, and offers help if there’s ever an issue.</p> 
+          <p>Plus, it’s designed to last, even as the way we use Wi-Fi changes. It’s built to support a growing number of "smart devices" because it includes Bluetooth® Smart Ready, Weave, and Thread. OnHub also automatically updates without interrupting your Wi-Fi connection so you’ll always have the latest features and security upgrades.</p> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened}"> 
+        <div class="content"> 
+         <div class="question" ng-click="ctrl.toggle()" data-g-event="faq" data-g-action="existing-isp"> 
+          <i class="toggle material-icons">?</i> 
+          <span class="title">Will it work with my Internet service provider (ISP) and existing network setup?</span> 
+          <span class="snippet">You bet.</span> 
+         </div> 
+         <div class="answer">
+           As long as you have a broadband connection, OnHub is ready for action. It can serve as a replacement for your old router, or if you have a modem+router combination unit, OnHub can act as an upgrade to the router component. It works with cable, DSL, Fiber, and all major Internet service providers. To learn more, visit the 
+          <a href="https://support.google.com/onhub/answer/6280578">Help Center</a> or 
+          <a href="./support/#answers">contact our support team</a>. 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item" ng-controller="AccordionController as ctrl" ng-class="{'opened': ctrl.opened}"> 
+        <div class="content"> 
+         <div class="question" ng-click="ctrl.toggle()" data-g-event="faq" data-g-action="num-connected-devices"> 
+          <i class="toggle material-icons">?</i> 
+          <span class="title">How many connected devices can OnHub support?</span> 
+          <span class="snippet">Up to 128.</span> 
+         </div> 
+         <div class="answer">
+           Today, we’re using Wi-Fi to stream and share on more devices than ever before. We have laptops, tablets, smartphones, TVs, and even “smart thermostats.” OnHub lets you connect them all by simultaneously supporting up to 128 devices. 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="setup" id="setup"> 
+   <div class="contained"> 
+    <div class="image"></div> 
+    <h2>Okay, ready to set up?</h2> 
+    <div class="body"> 
+     <a data-g-event="outgoing:setup" href="/hub/support/" class="btn btn-hollow btn-inverted">Yep, show me how</a> 
+    </div> 
+   </div> 
+  </section> 
+ </main> 
+ <footer> 
+  <nav> 
+   <ul> 
+    <li class="logo"><a data-g-event="footer:click" data-g-action="google" href="//www.google.com/about/"><img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_light_color_74x24dp.png" alt="Google"></a></li> 
+    <li><a data-g-event="footer:click" data-g-action="privacy" href="https://www.google.com/policies/privacy/">Privacy</a> </li> 
+    <li><a data-g-event="footer:click" data-g-action="terms" href="https://support.google.com/onhub/answer/6270620">Terms of Service</a> </li> 
+    <li><a data-g-event="footer:click" data-g-action="helpcenter" href="https://support.google.com/onhub">Help Center</a> </li> 
+    <li class="alt" data-g-event="footer:click" data-g-action="language"> <select onchange="var href=this[this.selectedIndex].value;if(href!=''){window.location.href=href};"> <option value="/hub/" selected> United States - English </option> <option value="/intl/en_ca/hub/"> Canada - English </option> <option value="/intl/fr_ca/hub/"> Canada - français </option> </select> </li> 
+   </ul> 
+  </nav> 
+ </footer> 
+ <script>
+      jetstream.main();
+    </script>  
+</body>
